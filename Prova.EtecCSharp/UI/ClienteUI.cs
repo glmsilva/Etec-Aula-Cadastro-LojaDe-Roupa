@@ -22,7 +22,7 @@ namespace Prova.EtecCSharp.UI
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-            Cliente novoCliente = new Cliente(); //instancia um nnovo objeto da classe produto do pacote DTO.
+            Cliente novoCliente = new Cliente(); //instancia um nnovo objeto da classe cliente do pacote DTO.
 
             novoCliente.CPF = (String)txtCPF.Text; // joga na propriedade o txt correspondente. Não é preciso fazer o mesmo com ID pois é auto_increment
 
